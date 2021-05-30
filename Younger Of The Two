@@ -1,0 +1,31 @@
+#a=name1,b=dob of name1
+a=str(input())
+b=str(input())
+#c=name2,d=dob of name2
+c=str(input())
+d=str(input())
+e=int(b[6:10])
+f=int(d[6:10])
+g=int(b[3:5])
+h=int(d[3:5])
+i=int(b[0:2])
+j=int(d[0:2])
+if(e>f):
+    print(a)
+elif(e<f):
+    print(c)
+else:
+    if(g>h):
+        print(a)
+    elif(g<h):
+        print(c)
+    else:
+        if(i>j):
+            print(a)
+        elif(i<j):
+            print(c)
+        else:
+            if(a<c):
+                print(a)
+            else:
+                print(c)
