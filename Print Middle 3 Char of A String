@@ -1,0 +1,11 @@
+input_string = input(" ")
+length = len(input_string)
+if length % 2 == 0:
+    if input_string[length - 1] == '.':
+        input_string = input_string[0 : length - 1]
+    else:
+        input_string = input_string + "."
+length = len(input_string)
+middle_position = (length) // 2
+output_string = input_string[middle_position - 1 : middle_position + 2]
+print(output_string)
