@@ -1,0 +1,11 @@
+a=str(input().lower())
+if('a' in a):
+    print('a',end='')
+if('e' in a):
+    print('e',end='')
+if('i' in a):
+    print('i',end='')
+if('o' in a):
+    print('o',end='')
+if('u' in a):
+    print('u',end='')
